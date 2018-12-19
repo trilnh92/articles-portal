@@ -1,8 +1,5 @@
 # Front End Test
 
-### Link Production
-https://articles-portal.surge.sh
-
 ### Perquisites
 - nodejs
 - npm
