@@ -1,8 +1,5 @@
 # Front End Test
 
-### Link Production
-https://articles-portal.surge.sh
-
 ### Perquisites
 - nodejs
 - npm
@@ -14,7 +11,7 @@ https://articles-portal.surge.sh
  
 ### Technologies
 :white_check_mark: React  
-:white_check_mark: React Router
+:white_check_mark: React Router   
 :white_check_mark: MobX  
 :white_check_mark: Bootstrap  
 :white_check_mark: SCSS  
