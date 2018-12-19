@@ -1,0 +1,48 @@
+@mixin generateContainer() {
+    max-width: 540px;
+    margin: 0 auto;
+
+    @media screen and (min-width: $screen-medium) {
+        max-width: 720px;
+    }
+    @media screen and (min-width: $screen-large) {
+        max-width: 960px;
+    }
+    @media screen and (min-width: $screen-extra-large) {
+        max-width: 1140px;
+    }
+}
+
+@mixin generateAnimation($name, $duration: .75s, $fill-mode: both) {
+    -webkit-animation-duration: $duration;
+    animation-duration: $duration;
+    -webkit-animation-name: $name;
+    animation-name: $name;
+    animation-fill-mode: $fill-mode;
+}
+
+@mixin generatePageTitle() {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-title {
+        border-bottom: solid 5px $orange;
+        padding: 0 20px 10px 20px;
+    }
+}
+
+@mixin generateFontSize() {
+    font-size: 14px;
+    @media screen and (min-width: $screen-large) {
+        font-size: 16px;
+    }
+}
+
+
+
+//-webkit-animation-duration: 0.75s;
+//animation-duration: 0.75s;
+//-webkit-animation-name: bounceIn;
+//animation-name: bounceIn;
+//animation-fill-mode: both;

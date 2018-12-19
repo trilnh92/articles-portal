@@ -1,0 +1,95 @@
+@import '../../assets/scss/helpers/variables';
+@import '../../assets/scss/base/animation';
+@import '../../assets/scss/helpers/mixins';
+
+
+.article {
+    margin-bottom: 3rem;
+
+    &__container {
+        transition: all 0.3s linear;
+        position: relative;
+        cursor: default;
+        border-radius: .25rem .25rem .25rem;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    &:hover {
+        a, img {
+            cursor: pointer;
+        }
+        img {
+            top: -.75rem;
+            box-shadow: 0 27px 24px rgba(0, 0, 0, 0.1), 0 40px 77px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            &.article-title{
+                color: $green;
+            }
+            &.article-link {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &-image {
+        position: relative;
+
+        img {
+            border-radius: .25rem;
+            width: 100%;
+            position: relative;
+            height: 300px;
+            top: 0;
+            -webkit-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    &-published-date {
+        font-size: 0.75rem;
+        padding-top: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+
+    &-title {
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.25rem;
+        margin-top: .25rem;
+    }
+
+    a {
+        &.article-title {
+            color: $black;
+
+            &:hover {
+                color: $green;
+                text-decoration: none;
+            }
+        }
+
+    }
+
+    &-short-description, &-link {
+        font-size: .875rem;
+        line-height: 1.4rem;
+        margin-top: 1rem;
+    }
+
+    &-link {
+        margin-top: 0.15rem;
+        color: $green;
+
+        &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}

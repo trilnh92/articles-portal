@@ -1,0 +1,19 @@
+@import '../../assets/scss/helpers/variables';
+
+.homepage {
+    &__highlight-text {
+        height: 35vh;
+        background-image: linear-gradient(to bottom, #39393a, #475463, #417588, #3198a0, #44bba4);
+
+        &__container {
+            padding: 0 15px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: $white;
+        }
+    }
+}

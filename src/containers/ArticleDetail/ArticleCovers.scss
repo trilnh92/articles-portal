@@ -1,0 +1,42 @@
+@import '../../assets/scss/helpers/variables';
+
+$height-small: 35vh;
+$height-large: 45vh;
+
+.article-detail__covers {
+  height: $height-small;
+  @media screen and (min-width: $screen-extra-large)
+  {
+    height: $height-large;
+  }
+  .slider {
+    height: $height-small !important;
+    @media screen and (min-width: $screen-extra-large)
+    {
+      height: $height-large !important;;
+    }
+  }
+  .slider-slide {
+    > img {
+      height: $height-small;
+      @media screen and (min-width: $screen-extra-large)
+      {
+        height: $height-large;
+      }
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .slider-control-bottomcenter {
+    button {
+      font-size: 45px !important;
+      color: $white !important;
+    }
+  }
+
+  .album-img {
+    height: 100vh !important;
+    background-color: black !important;
+  }
+}

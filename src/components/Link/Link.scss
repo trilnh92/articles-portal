@@ -1,0 +1,12 @@
+@import '../../assets/scss/helpers/variables';
+
+a#article-portal-link {
+  cursor: pointer;
+  color: $black;
+
+  &:hover, &:focus, &:active {
+    color: $green;
+    text-decoration: underline;
+  }
+
+}

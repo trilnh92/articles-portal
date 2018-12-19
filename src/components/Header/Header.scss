@@ -1,0 +1,89 @@
+@import '../../assets/scss/helpers/variables';
+@import '../../assets/scss/base/animation';
+
+.header {
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+
+    &__container {
+        padding: 0 15px;
+    }
+}
+
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+
+    &__container {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+    }
+
+    &-logo {
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+
+        &.navbar-brand {
+            color: $green;
+
+            &:hover {
+                color: $green;
+            }
+        }
+    }
+
+    &__menu {
+        &__item {
+            padding: 0.5em 0;
+
+            &:hover {
+                a {
+                    color: $orange;
+                }
+            }
+
+            a {
+                color: $black;
+            }
+
+            &--active {
+                a {
+                    color: $orange;
+                    font-weight: bold;
+                }
+            }
+
+            &-link {
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    button:focus {
+        outline: none;
+    }
+}
+
+@media screen and (min-width: $screen-large) {
+    .navbar {
+
+    }
+
+    .navbar-expand-lg {
+        flex-direction: column;
+        justify-content: center;
+
+        .navbar__menu {
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+            &__item {
+                padding: 0 30px
+            }
+        }
+    }
+}

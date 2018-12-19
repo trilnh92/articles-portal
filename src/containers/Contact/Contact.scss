@@ -1,0 +1,53 @@
+@import '../../assets/scss/helpers/variables';
+@import '../../assets/scss/helpers/mixins';
+
+.contact {
+  &__container {
+    padding: 0 15px;
+    @include generateContainer();
+  }
+
+  &__heading {
+    @include generatePageTitle();
+  }
+  &__form {
+    padding-top: 40px;
+    @media screen and (min-width: $screen-medium) {
+      padding-bottom: 50px;
+    }
+    &-button {
+      &.btn-secondary {
+        background-color: $orange;
+        border-color: $orange;
+      }
+      &:hover, &:focus, &:active {
+        &.btn-secondary {
+          background-color: darken($orange, 15%);
+          border-color: darken($orange, 15%);
+        }
+      }
+    }
+  }
+  &__information {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    @media screen and (min-width: $screen-medium) {
+      padding-top: 40px;
+      padding-bottom: 0;
+    }
+    h5 {
+      font-size: 0.9rem;
+    }
+    p {
+      margin: 0 0 7px;
+    }
+
+    a {
+      color: $black;
+      &:hover {
+        color: $green;
+        text-decoration: underline;
+      }
+    }
+  }
+}

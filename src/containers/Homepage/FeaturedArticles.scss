@@ -1,0 +1,24 @@
+@import '../../assets/scss/helpers/variables';
+@import '../../assets/scss/helpers/mixins';
+
+.homepage {
+  &__featured-articles {
+    margin-top: 1.5rem;
+
+    &__container {
+      padding: 0 15px;
+      @include generateContainer();
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-title {
+      font-weight: bold;
+    }
+
+    &__items {
+      margin-top: 1rem;
+    }
+  }
+}
