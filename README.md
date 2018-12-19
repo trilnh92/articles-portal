@@ -13,9 +13,10 @@ https://articles-portal.surge.sh
 - Run npm run lint to check the code quality 
  
 ### Technologies
-:white_check_mark: React
-:white_check_mark: MobX
-:white_check_mark: Bootstrap 
-:white_check_mark: SCSS
-:white_check_mark: Responsive  
-:white_check_mark: ESLINT 
+:white_check_mark: React  
+:white_check_mark: React Router
+:white_check_mark: MobX  
+:white_check_mark: Bootstrap  
+:white_check_mark: SCSS  
+:white_check_mark: Responsive    
+:white_check_mark: ESLINT   

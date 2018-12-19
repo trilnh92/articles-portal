@@ -6,12 +6,6 @@
 
 @import "base/base";
 
-@import "components/components";
-
-@import "layout/layout";
-
-@import "pages/pages";
-
 ::selection {
   color: lighten($white, 10%);
   background-color: $green;
