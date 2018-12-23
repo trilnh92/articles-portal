@@ -20,6 +20,7 @@ class ArticleDetail extends Component {
 
         document.title = `${article.name} | Articles Portal`;
 
+        // TODO: destructing setState https://github.com/mweststrate/immer
         this.setState({article});
         window.scrollTo(0, 0);
     }

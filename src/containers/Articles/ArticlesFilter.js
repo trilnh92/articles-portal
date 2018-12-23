@@ -24,6 +24,7 @@ class ArticlesFilter extends Component {
         const {store} = this.props;
         const categories = store.createCategoriesData();
 
+        // TODO: destructing setState https://github.com/mweststrate/immer
         this.setState({
             options: categories
         });
@@ -33,6 +34,7 @@ class ArticlesFilter extends Component {
     handleChange = (selectedOption) => {
         const {store} = this.props;
 
+        // TODO: destructing setState https://github.com/mweststrate/immer
         this.setState({
             selectedOption
         });
