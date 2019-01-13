@@ -6,7 +6,7 @@
         "name": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit",
         "author": "John Peter",
         "publishedDate": "15 October, 2018",
-        "coverImg": "https://images.unsplash.com/photo-1544934914-e32ad7d3055c?q=10",
+        "coverImg": "article-cover-01.jpg",
         "images": [
             {
                 "id": 1,
@@ -31,7 +31,7 @@
         "name": "Sed ut perspiciatis unde omnis iste natus error",
         "author": "Marie William",
         "publishedDate": "20 October 20, 2018",
-        "coverImg": "https://images.unsplash.com/photo-1544654803-b69140b285a1?q=10",
+        "coverImg": "article-cover-02.jpg",
         "images": [
             {
                 "id": 1,
@@ -56,7 +56,7 @@
         "name": "Quis autem vel eum iure reprehenderit qui in ea voluptate",
         "author": "Marie Aaron",
         "publishedDate": "25 October, 2018",
-        "coverImg": "https://images.unsplash.com/photo-1544586694-4303fc63e1e3?q=10",
+        "coverImg": "article-cover-03.jpg",
         "images": [
             {
                 "id": 1,
@@ -81,7 +81,7 @@
         "name": "Ut enim ad minima veniam, quis nostrum exercitationem ullam",
         "author": "Red Aaron",
         "publishedDate": "26 October, 2018",
-        "coverImg": "https://images.unsplash.com/photo-1543097692-fa13c6cd8595?q=10",
+        "coverImg": "article-cover-04.jpg",
         "images": [
             {
                 "id": 1,
@@ -106,7 +106,7 @@
         "name": "Nemo enim ipsam voluptatem quia voluptas",
         "author": "Blue Aaron",
         "publishedDate": "26 October, 2018",
-        "coverImg": "https://images.unsplash.com/photo-1533230001639-795424adfbe8?q=10",
+        "coverImg": "article-cover-05.jpg",
         "images": [
             {
                 "id": 1,
@@ -131,7 +131,7 @@
         "name": "Nam libero tempore, cum soluta nobis est eligendi",
         "author": "Black Aaron",
         "publishedDate": "27 October, 2018",
-        "coverImg": "https://images.unsplash.com/photo-1544738502-849ab3c63e50?q=10",
+        "coverImg": "article-cover-06.jpg",
         "images": [
             {
                 "id": 1,
@@ -156,7 +156,7 @@
         "name": "Por scientie, musica, sport etc, litot Europa usa li sam vocabular.",
         "author": "Pink Aaron",
         "publishedDate": "27 October, 2018",
-        "coverImg": "https://images.unsplash.com/photo-1544604860-206456f08229?q=10",
+        "coverImg": "article-cover-07.jpg",
         "images": [
             {
                 "id": 1,
@@ -181,7 +181,7 @@
         "name": " A un Angleso it va semblar un simplificat Angles",
         "author": "Green Aaron",
         "publishedDate": "28 October, 2018",
-        "coverImg": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=10",
+        "coverImg": "article-cover-08.jpg",
         "images": [
             {
                 "id": 1,
@@ -206,7 +206,7 @@
         "name": "Li lingues differe solmen in li grammatica",
         "author": "Red Aaron",
         "publishedDate": "29 October, 2018",
-        "coverImg": "https://images.unsplash.com/photo-1544363635-44cbff5f1143?q=10",
+        "coverImg": "article-cover-09.jpg",
         "images": [
             {
                 "id": 1,
@@ -231,7 +231,7 @@
         "name": "Li nov lingua franca va esser plu simplic",
         "author": "Orange Aaron",
         "publishedDate": "30 October, 2018",
-        "coverImg": "https://images.unsplash.com/photo-1544699748-bdfb8b2f3796?q=10",
+        "coverImg": "article-cover-10.jpg",
         "images": [
             {
                 "id": 1,
