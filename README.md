@@ -1,4 +1,4 @@
-## Artilces Portal
+## Articles Portal
 
 ### Perquisites
 - nodejs
