@@ -9,7 +9,7 @@ const placeholder = (
             backgroundColor: color,
             height: 300,
             width: `100%`,
-            filter: `blur(2px)`
+            filter: `blur(35px)`
         }}
     />
 );
