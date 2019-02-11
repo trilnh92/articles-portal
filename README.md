@@ -5,9 +5,9 @@
 - npm
 
 ### How to run in local
-- Run npm start for the dev mode
-- Run npm run prod to view the production mode
-- Run npm run lint to check the code quality 
+- Run *npm start* for the dev mode
+- Run *npm run prod* to view the production mode
+- Run *npm run lint* to check the code quality 
  
 ### To-do list
 :heavy_check_mark: React    
