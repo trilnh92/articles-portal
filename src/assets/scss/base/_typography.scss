@@ -1,31 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700,700italic|Lato:400,400italic,700&display=swap");
+
 body {
-  font-family: 'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
- @include generateFontSize();
+    font-family: $typography--font-family;
+    font-weight: $typography--font-weight;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @include generateFontSize();
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Poppins', sans-serif;
+    font-family: $typography__heading--font-family;
+    font-weight: $typography__heading--font-weight;
+    //color: $typography__heading--color;
 }
 
 p, span, a {
-  font-family: 'Open Sans', sans-serif;
+    font-family: inherit;
 }
 
 h1 {
-  font-size: 2em;
-  margin: .67em 0
+    font-size: 2em;
+    margin: .67em 0;
 }
 
 h2 {
-  font-size: 1.5em;
-  margin: .75em 0
+    font-size: 1.5em;
+    margin: .75em 0
 }
 
 h3 {
-  font-size: 1.17em;
-  margin: .83em 0
+    font-size: 1.17em;
+    margin: .83em 0
 }
 
 h4, p,
@@ -33,33 +38,35 @@ blockquote, ul,
 fieldset, form,
 ol, dl, dir,
 menu {
-  margin: 1.12em 0
+    margin: 1.12em 0
 }
 
 h5 {
-  font-size: .83em;
-  margin: 1.5em 0
+    font-size: .83em;
+    margin: 1.5em 0
 }
 
 h6 {
-  font-size: .75em;
-  margin: 1.67em 0
+    font-size: .75em;
+    margin: 1.67em 0
 }
+
 p, span, a {
-  font-size: 1em;
+    font-size: 1em;
 }
+
 h1, h2, h3, h4,
 h5, h6, b,
 strong {
-  font-weight: bolder
+    font-weight: bolder
 }
 
 blockquote {
-  margin-left: 40px;
-  margin-right: 40px
+    margin-left: 40px;
+    margin-right: 40px
 }
 
 i, cite, em,
 var, address {
-  font-style: italic
+    font-style: italic
 }

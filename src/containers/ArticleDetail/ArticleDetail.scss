@@ -2,69 +2,70 @@
 @import '../../assets/scss/helpers/mixins';
 
 .article-detail {
-  @include generateFontSize();
-  color: $black;
+    @include generateFontSize();
+    color: $black;
 
-  &__container {
-    padding: 50px 15px;
-    @include generateContainer();
-  }
-
-  &__heading {
-
-  }
-
-  &__category {
-    font-weight: 700;
-    text-decoration: underline;
-  }
-
-  &__name {
-    font-size: 2em;
-  }
-
-  &__extra {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-
-    span {
-      flex: 0 1 100%;
+    &__container {
+        padding: 50px 15px;
+        @include generateContainer();
     }
 
-    @media screen and (min-width: $screen-small) {
-      flex-wrap: nowrap;
-      span {
-        flex: 0 1 auto;
-      }
+    &__heading {
+
     }
 
-  }
-
-  &__author {
-    padding-right: 5px;
-    font-weight: 600;
-
-    &:after {
-      content: " |";
+    &__category {
+        font-weight: 700;
+        text-decoration: underline;
     }
-  }
 
-  &__published-date {
-    font-weight: 200;
-  }
-
-  &__content {
-    margin-top: 15px;
-
-    p {
-      margin: 0 0 1em 0;
+    &__name {
+        font-size: 3.5em;
+        margin: .35em 0;
     }
-  }
 
-  &__navigate {
-    margin-top: 30px;
-  }
+    &__extra {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+
+        span {
+            flex: 0 1 100%;
+        }
+
+        @media screen and (min-width: $screen-small) {
+            flex-wrap: nowrap;
+            span {
+                flex: 0 1 auto;
+            }
+        }
+
+    }
+
+    &__author {
+        padding-right: 5px;
+        font-weight: 600;
+
+        &:after {
+            content: " |";
+        }
+    }
+
+    &__published-date {
+        font-weight: 200;
+    }
+
+    &__content {
+        margin-top: 15px;
+
+        p {
+            margin: 0 0 1em 0;
+        }
+    }
+
+    &__navigate {
+        margin-top: 30px;
+    }
 
 
 }

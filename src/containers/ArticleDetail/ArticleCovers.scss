@@ -4,39 +4,50 @@ $height-small: 35vh;
 $height-large: 45vh;
 
 .article-detail__covers {
-  height: $height-small;
-  @media screen and (min-width: $screen-extra-large)
-  {
-    height: $height-large;
-  }
-  .slider {
-    height: $height-small !important;
-    @media screen and (min-width: $screen-extra-large)
-    {
-      height: $height-large !important;;
+    height: $height-small;
+    margin-bottom: 65px;
+
+    &:before {
+
+        background: $orange;
+        content: '';
+        display: block;
+        height: 6px;
+        margin-bottom: 24px;
     }
-  }
-  .slider-slide {
-    > img {
-      height: $height-small;
-      @media screen and (min-width: $screen-extra-large)
-      {
+
+    @media screen and (min-width: $screen-extra-large) {
         height: $height-large;
-      }
-      object-fit: cover;
-      object-position: center;
     }
-  }
 
-  .slider-control-bottomcenter {
-    button {
-      font-size: 45px !important;
-      color: $white !important;
+    .slider {
+        height: $height-small !important;
+
+        @media screen and (min-width: $screen-extra-large) {
+            height: $height-large !important;;
+        }
     }
-  }
 
-  .album-img {
-    height: 100vh !important;
-    background-color: black !important;
-  }
+    .slider-slide {
+        > img {
+            height: $height-small;
+            @media screen and (min-width: $screen-extra-large) {
+                height: $height-large;
+            }
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    .slider-control-bottomcenter {
+        button {
+            font-size: 45px !important;
+            color: $white !important;
+        }
+    }
+
+    .album-img {
+        height: 100vh !important;
+        background-color: black !important;
+    }
 }

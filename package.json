@@ -4,20 +4,20 @@
     "author": "Tri Le Nguyen Huu",
     "private": true,
     "dependencies": {
-        "bootstrap": "^4.2.1",
-        "mobx": "^5.8.0",
-        "mobx-react": "^5.4.3",
-        "node-sass": "^4.11.0",
-        "nuka-carousel": "^4.4.5",
-        "react": "^16.7.0",
+        "bootstrap": "^4.3.1",
+        "mobx": "^5.9.4",
+        "mobx-react": "^5.4.4",
+        "node-sass": "^4.12.0",
+        "nuka-carousel": "^4.5.6",
+        "react": "^16.8.6",
         "react-app-rewire-mobx": "^1.0.9",
-        "react-dom": "^16.7.0",
+        "react-dom": "^16.8.6",
         "react-google-maps": "^9.4.5",
         "react-progressive-image": "^0.6.0",
-        "react-router-dom": "^4.3.1",
-        "react-scripts": "^2.1.3",
-        "react-select": "^2.2.0",
-        "reactstrap": "^7.0.2"
+        "react-router-dom": "^5.0.0",
+        "react-scripts": "^3.0.1",
+        "react-select": "^2.4.3",
+        "reactstrap": "^8.0.0"
     },
     "scripts": {
         "start": "react-app-rewired start",
@@ -27,7 +27,8 @@
         "eject": "react-app-rewired eject",
         "server": "http-server ./build -p 9000 -o",
         "prod": "npm run build && npm run server",
-        "deploy": "npm run build && surge --project ./build --domain https://articles-portal.surge.sh"
+        "deploy": "npm run build && surge --project ./build --domain https://articles-portal.surge.sh",
+        "sync": "git push && git fetch --all && git pull --all"
     },
     "eslintConfig": {
         "extends": "react-app"
@@ -39,23 +40,23 @@
         "not op_mini all"
     ],
     "devDependencies": {
-        "babel-eslint": "^9.0.0",
+        "babel-eslint": "^10.0.1",
         "babel-plugin-styled-components": "^1.10.0",
-        "customize-cra": "^0.2.9",
-        "eslint": "^5.6.0",
+        "customize-cra": "^0.2.12",
+        "eslint": "^5.16.0",
         "eslint-config-airbnb": "^17.1.0",
-        "eslint-config-prettier": "^3.3.0",
-        "eslint-config-react-app": "^3.0.6",
-        "eslint-plugin-flowtype": "^3.2.1",
-        "eslint-plugin-import": "^2.14.0",
-        "eslint-plugin-jsx-a11y": "^6.1.2",
-        "eslint-plugin-prettier": "^3.0.1",
-        "eslint-plugin-react": "^7.12.3",
-        "husky": "^1.3.1",
-        "lint-staged": "^8.1.0",
-        "prettier": "^1.15.3",
-        "pretty-quick": "^1.8.0",
-        "react-app-rewired": "^2.0.1"
+        "eslint-config-prettier": "^4.3.0",
+        "eslint-config-react-app": "^4.0.1",
+        "eslint-plugin-flowtype": "^3.9.0",
+        "eslint-plugin-import": "^2.17.2",
+        "eslint-plugin-jsx-a11y": "^6.2.1",
+        "eslint-plugin-prettier": "^3.1.0",
+        "eslint-plugin-react": "^7.13.0",
+        "husky": "^2.3.0",
+        "lint-staged": "^8.1.7",
+        "prettier": "^1.17.1",
+        "pretty-quick": "^1.11.0",
+        "react-app-rewired": "^2.1.3"
     },
     "lint-staged": {
         "*.{js,jsx}": [
