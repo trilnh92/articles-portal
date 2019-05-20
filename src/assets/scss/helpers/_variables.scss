@@ -1,3 +1,5 @@
+
+// Color
 $orange: #FA7268;
 $yellow: #e9d758;
 $green: #44BBA4;
@@ -5,8 +7,24 @@ $green: #44BBA4;
 $white: #e6e6e6;
 $black: #39393a;
 
-// Breakpoints
+// Breakpoint
 $screen-small: 576px;
 $screen-medium: 768px;
 $screen-large: 992px;
 $screen-extra-large: 1200px;
+
+// Typography
+$typography__heading--font-family: "Cormorant Infant", serif;
+$typography__heading--font-weight: 700;
+$typography__heading--color: #1e3046;
+
+$typography--font-family: "Lato", sans-serif;;
+$typography--font-weight: 500;
+$typography--color: #445c7b;
+
+
+// Logo
+$logo--font-family: $typography__heading--font-family;
+$logo--font-weight: 600;
+$logo--font-size: 3em;
+$logo--text-transform: uppercase;
