@@ -27,7 +27,8 @@
         "eject": "react-app-rewired eject",
         "server": "http-server ./build -p 9000 -o",
         "prod": "npm run build && npm run server",
-        "deploy": "npm run build && surge --project ./build --domain https://articles-portal.surge.sh"
+        "deploy": "npm run build && surge --project ./build --domain https://articles-portal.surge.sh",
+        "sync": "git push && git fetch --all && git pull --all"
     },
     "eslintConfig": {
         "extends": "react-app"
