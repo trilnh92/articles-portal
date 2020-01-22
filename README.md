@@ -1,5 +1,8 @@
 ## Articles Portal
 
+### Deploy status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b33f87ba-3d59-4d56-b2a6-01b1d085552f/deploy-status)](https://app.netlify.com/sites/trilnh92/deploys)
+
 ### Perquisites
 - nodejs
 - npm
