@@ -21,3 +21,4 @@
 :x: Progressive Web App  
 :x: Optimize images  
 :x: Reduce loading time  
+:x: Server Side Rendering
